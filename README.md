@@ -1,0 +1,4 @@
+jQueryLib
+=========
+
+iQuery Private Library
