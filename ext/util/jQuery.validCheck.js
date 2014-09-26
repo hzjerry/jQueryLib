@@ -2,7 +2,7 @@
  * 校验函数
  * @character_set UTF-8
  * @author Jerry.li(hzjerry@gmail.com)
- * @version 1.2013.08.04.1264
+ * @version 1.2014.09.25.1757
  *  Example
  * 	<code>
  *      $.isEmail(str); //检查是否为邮件地址
@@ -33,7 +33,7 @@
          */
         isEmail:function(str)
         {
-            return (/^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/).test(str);
+            return (/^[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9_\-]+(\.[a-zA-Z0-9_\-]+)+$/).test(str);
         },
 
         /**
