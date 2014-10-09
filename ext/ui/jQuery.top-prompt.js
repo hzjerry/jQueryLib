@@ -59,7 +59,7 @@
                 aBuf.push('#gc-frameTopPrompt{');
                 aBuf.push('display:none;'); //默认不显示
                 aBuf.push('position:fixed;');
-                aBuf.push('z-index:1;');
+                aBuf.push('z-index:100;');
                 aBuf.push('clear:both:');
                 aBuf.push('border:1px solid #e5e5e5;');
                 aBuf.push('background:#FFFFFF;');
